@@ -33,3 +33,50 @@ Pass this tool one or more ips to check if it has been reported for malicious ac
 
 - look up all ips in a txt
 - one ip per line
+
+**Example Output**
+```
+Check: 8.8.8.8
+
+SHODAN:
+https://www.shodan.io/host/8.8.8.8
+Open Port: 53 - dns-tcp
+Open Port: 53 - dns-udp
+Open Port: 443 - https
+
+WHOIS:
+https://search.arin.net/rdap/?query=8.8.8.8
+Entry name: LVLT-GOGL-8-8-8
+Registrant name: Google LLC
+Days old: 3,017
+
+IPABUSE:
+https://www.abuseipdb.com/check/8.8.8.8
+Abuse Score: 0
+ISP: Google LLC
+Domain: google.com
+Host Name: ['dns.google']
+---------------------------------------------------------------------
+
+Check: 8.8.4.4
+
+SHODAN:
+https://www.shodan.io/host/8.8.4.4
+Open Port: 53 - dns-tcp
+Open Port: 53 - dns-udp
+Open Port: 443 - https
+
+WHOIS:
+https://search.arin.net/rdap/?query=8.8.4.4
+Entry name: LVLT-GOGL-8-8-4
+Registrant name: Google LLC
+Days old: 3,017
+
+IPABUSE:
+https://www.abuseipdb.com/check/8.8.4.4
+Abuse Score: 0
+ISP: Google LLC
+Domain: google.com
+Host Name: ['dns.google']
+---------------------------------------------------------------------
+```
