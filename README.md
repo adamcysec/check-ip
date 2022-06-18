@@ -1,5 +1,3 @@
-# check-ip
-
 # check-ip.py
 
 ## Synopsis
