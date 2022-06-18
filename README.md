@@ -16,6 +16,9 @@ Pass this tool one or more ips to check if it has been reported for malicious ac
 **shodan**
 - returns the open ports for the host.
 
+## Setup
+All you need to do is replace the file contents of `ipabuse_key.txt` with your AbuseIPDB private api key and replace the file contents of `shodan_key.txt` with your Shodan private api key. 
+
 ## Usage
 **Parameter -ip**
 - type : str
