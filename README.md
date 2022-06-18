@@ -6,6 +6,16 @@ Reputation check an ip on services: [shodan](https://www.shodan.io/), [whois](ht
 ## Description
 Pass this tool one or more ips to check if it has been reported for malicious activity.
 
+Services:
+**AbuseIPDB**
+- checks the abuse score and returns the top 5 report comments for known bad activity.
+
+**Whois**
+- returns the age of the registration date.
+
+**shodan**
+- returns the open ports for the host.
+
 ## Usage
 **Parameter -ip**
 - type : str
